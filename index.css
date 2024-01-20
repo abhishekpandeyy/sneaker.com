@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #F7EDE3;
+}
+#parent{
+    height: auto;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+   padding-bottom: 5px;
+}
+#nav{
+     margin-top: 23px;
+     margin-bottom:48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav>#part1
+{
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+#nav>#part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#searchh{
+    border: none;
+    outline: none;height: 15px;
+    background: #F7EDE3;
+    padding: 6px;
+}
+#searchh::placeholder{
+    font-size: 10px;
+}
+
+#searchIcon{
+    height: 22px;
+    color: #eb4c47;
+    font-weight: 900;
+}
+#srchDiv
+{
+    border-bottom: 1.4px solid black;
+}
+#userIcon{
+    color: #eb4c47;
+    font-weight: 900;
+}
+#cartIcon{
+ color: #eb4c47;
+ font-weight: 900;
+}
+#logoId{
+   height: 33px;
+}
+#History{
+    color: #eb4c47;
+}
+#firstPage{
+    
+    display: flex;
+    margin-bottom: 0px;
+}
+#firstPage>#leftPart-1{
+    width: 70%;
+}
+#rightPart{
+    position: relative;
+    height: 533px;
+}
+#fPRS{
+    height: 533px;
+}
+
+#sneaker,#sneakerf{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: #f93c35;
+}
+#shopnowBTN{
+    padding: 10px 30px;
+    border:2px solid #eb4c47;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #eb4c47;
+    margin-top: 30px;
+}
+#shiftedDiv{
+    margin-left: 81px;
+    width: 72%;
+    overflow: hidden;
+}
+#leftBottom{
+    margin-left: 81px;
+    display: flex;
+    justify-content:space-between;
+}
+#shoe2
+{
+    margin-top:59px;
+    height: 210px;
+}
+#detailDiv{
+    margin-top: 0;
+    background-color: #E1D5C9;
+    width: 30%;
+    height:163px ;
+    padding: 22px;
+    position: relative;
+}
+#detailDiv>h4{
+    font-weight: 500;
+}
+#redLeftArrow
+{
+    background-color:#f93c35;
+    padding: 8px;
+    
+    position: absolute;
+    right:0;bottom: 0;
+   
+}
+#redrightArrow
+{
+    background-color:#f93c35;
+    padding: 8px;
+    position: absolute;
+    left:0;bottom: 0;
+}
+#shoe3
+{
+    margin-top: 80px;
+    height: auto;
+    width: 100%;
+}
+#shoe3Text{
+    position: relative;
+}
+#textt{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 30px;
+    margin-right: 24px;
+}
+#textt>h2
+{   font-size: 30px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#secondPage{
+    display: flex;
+   margin-bottom: 80px;
+   margin-top: 80px;
+}
+#s-2-1{
+    display: flex;
+    justify-content: space-between;
+    width: 67.3%;
+    overflow: hidden;
+}
+#s-2-2{
+    width: 30%;
+}
+#shoe4-1
+{
+    height: 380px;
+}
+#shoe4-2{
+    margin-top: 170px;
+    margin-right: 260px;
+    height: 300px;
+    background-color: #f93c35;
+}
+#thirdPage
+{
+    
+    display: flex;
+    padding-bottom: 80px;
+}
+#thirdPage>*
+{
+color: #eb4c47;
+}
+p{
+    color: black;
+}
+#shiftedDiv-3
+{
+    margin-left: 81px;
+}
+#left3{
+    overflow: hidden;
+    width: 67.3%;
+}
+#right3{
+    width: 30%;
+}
+#imgDivPage3
+{
+    
+    display: flex;
+    justify-content: space-around;
+}
+#shoe8{
+    height: 260px;
+    
+}
+#shoe9
+{
+    margin-top: 60px;
+    margin-right: 30px;
+    height:400px;
+
+}
+#shoe10{
+   height: 568.4px;
+  left: 0;
+}
+#text3page{
+    width: 80%;
+}
+
+.lastText{
+    font-weight: 900;
+    color: black;
+}
+
+.redText{
+    color: #eb4c47;
+}
+
+#line1{
+    top: 0;
+    position: absolute;
+    height:449vh;
+   border: .8px dashed black;
+  border-bottom: 0;
+   border-right: 0;
+  border-top: 0;
+    
+}
+#line2
+{
+    top: 0;
+    left: 131px;
+    position: absolute;
+    height:449vh;
+   border: .8px dashed black;
+  border-bottom: 0;
+   border-right: 0;
+  border-top: 0;
+    
+}
+#line3{
+    top: 0;
+    position: absolute;
+    left: 65.9%;
+    height:449vh;
+   border: 1.5px dashed black;
+  border-bottom: 0;
+   border-right: 0;
+  border-top: 0;
+    
+}
+#line4{
+    top: 0;
+    position: absolute;
+    right: 50px;
+    height:449vh;
+   border: .8px dashed black;
+  border-bottom: 0;
+   border-right: 0;
+  border-top: 0;
+    
+}
+
+#hr
+{
+   border: 1.2px dashed black;
+}
